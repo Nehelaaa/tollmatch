@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TollMatch Test Steps</title><link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><a class="brand" href="./"><svg width="38" height="38" viewBox="0 0 40 40" aria-hidden="true"><rect x=".75" y=".75" width="38.5" height="38.5" rx="9.5" fill="#0b4f2e" stroke="rgba(255,255,255,.35)" stroke-width="1.5"/><path d="M9 30 L16 10 M31 30 L24 10" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path d="M20 12v3M20 19v3M20 26v3" stroke="#ffc629" stroke-width="2.6" stroke-linecap="round"/></svg> TollMatch</a><h1>How to test TollMatch</h1><p>For Chrome Web Store reviewers. All sample data is made up.</p></div></header>
+<main class="wrap">
+<div class="card"><h2>1. Download the sample files</h2><ul>
+<li><a href="sample/sample-ezpass-history.csv">sample-ezpass-history.csv</a> (made-up E-ZPass toll history)</li>
+<li><a href="sample/sample-bookings.xlsx">sample-bookings.xlsx</a> (two made-up bookings)</li></ul></div>
+<div class="card"><h2>2. Load the tolls</h2><p>Click the TollMatch icon to open the side panel. Drop <b>sample-ezpass-history.csv</b> on "Drop your E-ZPass CSV here". It shows <b>13 tolls loaded</b>.</p></div>
+<div class="card"><h2>3. Set the cars</h2><p>Transponder <b>1234567</b> is pre-marked "Rental car": type the plate <b>DEMO42</b>. Leave <b>7654321</b> as "My own car". Click <b>Save cars</b>.</p></div>
+<div class="card"><h2>4. Check the bookings</h2><p>In step 3 choose <b>My own bookings</b>, click <b>Upload bookings</b> and pick <b>sample-bookings.xlsx</b>.</p>
+<p>Expected: <b>Jane Doe .25</b> and <b>Sam Lee .40</b>. Click Jane Doe: her host's delivery drive and the pickup after she returned are crossed out, with the reason under each toll. "Download statement" saves the toll statement image, and "Copy message" copies the message for the guest.</p></div>
+<div class="card"><h2>About the Turo options</h2><p>"All Turo trips" and "One Turo trip" only work for a signed-in Turo host on turo.com. They read that host's own trips and fill in Turo's toll invoice form only after the host approves each send. All data stays in the browser's local extension storage.</p></div>
+</main></body></html>
