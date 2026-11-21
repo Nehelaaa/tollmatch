@@ -1,0 +1,14 @@
+PostingDate,TransactionType,TravelAgency,TagNumber,TagOrLicense,LicenseState,EntryDate,EntryLane,EntryPlaza,ExitDate,ExitLane,ExitPlaza,FareClass,Amount
+11/5/2026 9:20:00 AM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,11/2/2026 9:08:00 AM,,1113 - Framingham - East,11/2/2026 9:20:00 AM,01,1120 - Weston - East,2,-$0.50
+11/5/2026 9:23:00 AM,E-ZPass Toll,21 - MassDOT,7654321,**********,**,11/2/2026 9:11:00 AM,,1113 - Framingham - East,11/2/2026 9:23:00 AM,01,1120 - Weston - East,2,-$0.50
+11/5/2026 9:38:00 AM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,11/2/2026 9:30:00 AM,,1126 - Newton - East,11/2/2026 9:38:00 AM,01,1131 - Allston - East,2,-$1.70
+11/5/2026 9:41:00 AM,E-ZPass Toll,21 - MassDOT,7654321,**********,**,11/2/2026 9:33:00 AM,,1126 - Newton - East,11/2/2026 9:41:00 AM,01,1131 - Allston - East,2,-$1.70
+11/5/2026 9:48:00 AM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,,,,11/2/2026 9:48:00 AM,01,1200 - Ted Williams Tunnel - East,2,-$1.50
+11/5/2026 9:51:00 AM,E-ZPass Toll,21 - MassDOT,7654321,**********,**,,,,11/2/2026 9:51:00 AM,01,1200 - Ted Williams Tunnel - East,2,-$1.50
+11/5/2026 11:05:00 AM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,,,,11/2/2026 11:05:00 AM,01,1700 - Ted Williams Tunnel - West,2,-$1.50
+11/7/2026 1:40:00 PM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,,,,11/4/2026 1:40:00 PM,01,1395 - Tobin Bridge Central - South,2,-$1.25
+11/8/2026 2:35:00 PM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,,,,11/5/2026 2:35:00 PM,01,1200 - Ted Williams Tunnel - East,2,-$1.50
+11/8/2026 3:50:00 PM,E-ZPass Toll,21 - MassDOT,7654321,**********,**,,,,11/5/2026 3:50:00 PM,01,1211 - Callahan Tunnel - East,2,-$1.50
+11/8/2026 4:20:00 PM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,,,,11/5/2026 4:20:00 PM,01,1700 - Ted Williams Tunnel - West,2,-$1.50
+11/11/2026 12:10:00 PM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,11/8/2026 12:02:00 PM,,1631 - Allston - West,11/8/2026 12:10:00 PM,01,1626 - Newton - West,2,-$1.70
+11/12/2026 5:45:00 PM,E-ZPass Toll,21 - MassDOT,1234567,**********,**,11/9/2026 5:37:00 PM,,1126 - Newton - East,11/9/2026 5:45:00 PM,01,1131 - Allston - East,2,-$1.70
